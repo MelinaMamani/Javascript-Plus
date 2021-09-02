@@ -1,6 +1,6 @@
 "use strict"
 
-window.addEventListener('load', function(params) {
+window.addEventListener('load', function() {
     var boton = document.querySelector("#boton");
 
     function cambiarColorBoton() {
@@ -29,11 +29,11 @@ window.addEventListener('load', function(params) {
 
     var nombre = document.querySelector("#campo_nombre");
 
-    nombre.addEventListener('focus', function(params) {
-        console.log("Estoy dentro del input");
+    nombre.addEventListener('focus', function() {
+        console.log("Estoy adentro del input");
     });
 
-    nombre.addEventListener('blur', function(params) {
+    nombre.addEventListener('blur', function() {
         console.log("Estoy fuera del input");
     });
 
