@@ -37,7 +37,6 @@ window.addEventListener('load', function() {
         console.log("Estoy fuera del input");
     });
 
-
     nombre.addEventListener('keydown', function(evento) {
         console.log("Pulsando tecla ",String.fromCharCode(evento.keyCode));
     });
